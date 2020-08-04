@@ -1,0 +1,9 @@
+php_value session.gc_maxlifetime 604800
+php_value session.cookie_lifetime 604800
+
+
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+
+php_flag register_globals Off
+php_flag magic_quotes_gps Off

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12pt; background-color:#fff; min-width: 800px; max-width: 1280px; width: 100%; margin:0 auto;}
+p,h1,h2,h3{margin:0px;}
+img{border:0px;}
+a{ color:#39F; text-decoration:none; }
+a:hover{ color:#F60; text-decoration:underline; }
+#menu{padding: 0; height: 50px; text-align:center; display: inline-block; width: 100%; font-size:16pt; font-family:"Times New Roman", Tahoma; background:#25a7ff; border-bottom:3px solid #5a78ff; }
+#menu a{display: inline-block;  color:#fff; padding: 8px;  border: #27c3ff solid 2px; border-radius: 7px; margin: 2px; text-decoration:none; }
+#menu a:hover{border:#fff98e solid 2px; color:#fffd02;  background:rgba(255, 255, 0, 0.15); }
+.author_line, .book_line{display: block; height: 45px; border-bottom: #27c3ff solid 1px; padding: 5px; margin-top:3px;}
+.author_line a, .book_line a{visibility: hidden;}
+.author_line:hover, .book_line:hover{background:#fffee2;	}
+.author_line:hover a, .book_line:hover a{visibility: visible;}
+#author_add_form, #book_add_form{display: none;}
+.add_form{border: 2px solid #97d3ff; border-radius: 8px; background: #cbfbff; padding: 5px; min-width: 400px; max-width: 900px; width: 100%; margin:0 auto; text-align: center;}
+#sys_msg{padding: 10px; color: #ee001d;}
+.book_del_author{color: #606e65; font-size: 10pt;}
+.book_add_author{font-size: 14pt; }
+.book_add_author, .book_del_author a{color: #ff0077;}
+.book_add_author:hover, .book_del_author a:hover{color: #31ff00; text-decoration:none;}
